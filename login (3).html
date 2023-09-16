@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://use.fontawesome.com/be1ba39dfe.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/css2.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-right">
+            <li><a href="home_page.html">Home</a></li>
+            <li><a href="community_page.html">Community</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </div>
+    </nav>
+
+    <div class="login-page">
+        <div class="form">
+            <div class="button-box">
+                <form action="login_form.php" class="login-form" method="post">
+                    <form class="input-group">
+                        Username:<input type="text" name="un" class="input-field" placeholder="username" id="un"><br> Password:
+                        <input type="text" name="ps" class="input-field" placeholder="password" id="ps"><br>
+                        <input type="submit" class="submit-btn" name="create" value="login">
+                    </form>
+                    <p>Don't have an acc? Register now!
+                        <a href="register.html"><br>Click here</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>

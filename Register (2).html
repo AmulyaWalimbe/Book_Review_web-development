@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://use.fontawesome.com/be1ba39dfe.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/css2.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-right">
+            <li><a href="home_page.html">Home</a></li>
+            <li><a href="community_page.html">Community</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </div>
+    </nav>
+
+    <div class="register-page">
+        <div class="form">
+            <div class="button-box">
+                <form action="register_form.php" class="register-form" method="post">
+                    <div class="input-group">
+                        Username:<input type="text" name="un" class="input-field" placeholder="username" id="un"><br> E-mail:
+                        <input type="text" name="em" class="input-field" placeholder="email" id="em"><br> Password:
+                        <input type="password" name="ps" class="input-field" placeholder="password" id="ps"><br> Confirm password:<input type="password" name="cps" class="input-field" placeholder="confirm password" id="cps"><br>
+                        <input type="submit" class="submit-btn" name="create" value="create">
+                        <p>Already registered?<a href="login.html">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
